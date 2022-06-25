@@ -17,6 +17,8 @@ extension APIRouter {
     @discardableResult
     internal static func execute(withRoute route: APIRoute,
                                  completionCall: @escaping ((AFDataResponse<Data>)->())) -> DataRequest {
+        cancelAllOngoingCalls()
+        
         let urlRequest = route.baseUrl.appendingPathComponent(route.path)
         
         return AF.request(urlRequest,
@@ -25,6 +27,15 @@ extension APIRouter {
                           encoding: route.encoding,
                           headers: route.headers).responseData { response in
             completionCall(response)
+        }
+    }
+    
+    private static func cancelAllOngoingCalls() {
+        let sessionManager = Session.default
+        sessionManager.session.getTasksWithCompletionHandler { dataTasks, uploadTasks, downloadTasks in
+            dataTasks.forEach { $0.cancel() }
+            uploadTasks.forEach { $0.cancel() }
+            downloadTasks.forEach { $0.cancel() }
         }
     }
 }
