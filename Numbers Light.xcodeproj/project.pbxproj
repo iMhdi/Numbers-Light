@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AB5EB202865FF8C0069F872 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5EB1F2865FF8C0069F872 /* Observable.swift */; };
+		2AB5EB222865FFAB0069F872 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5EB212865FFAB0069F872 /* Constants.swift */; };
+		2AB5EB24286613300069F872 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB5EB23286613300069F872 /* Network.framework */; };
+		2AB5EB2A286627FB0069F872 /* HomeUseCasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5EB29286627FB0069F872 /* HomeUseCasesTests.swift */; };
 		2AE2B2972864A1D1007E0221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2962864A1D1007E0221 /* AppDelegate.swift */; };
-		2AE2B2992864A1D1007E0221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2982864A1D1007E0221 /* SceneDelegate.swift */; };
-		2AE2B29B2864A1D1007E0221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B29A2864A1D1007E0221 /* ViewController.swift */; };
-		2AE2B29E2864A1D1007E0221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE2B29C2864A1D1007E0221 /* Main.storyboard */; };
 		2AE2B2A02864A1D4007E0221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE2B29F2864A1D4007E0221 /* Assets.xcassets */; };
 		2AE2B2A32864A1D4007E0221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE2B2A12864A1D4007E0221 /* LaunchScreen.storyboard */; };
-		2AE2B2AE2864A1D4007E0221 /* Numbers_LightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2AD2864A1D4007E0221 /* Numbers_LightTests.swift */; };
-		2AE2B2B82864A1D4007E0221 /* Numbers_LightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2B72864A1D4007E0221 /* Numbers_LightUITests.swift */; };
-		2AE2B2BA2864A1D4007E0221 /* Numbers_LightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2B92864A1D4007E0221 /* Numbers_LightUITestsLaunchTests.swift */; };
+		2AE2B2E12864A35F007E0221 /* APIRouter+Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2C72864A35F007E0221 /* APIRouter+Numbers.swift */; };
+		2AE2B2E22864A35F007E0221 /* NumbersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2C82864A35F007E0221 /* NumbersRepository.swift */; };
+		2AE2B2E32864A35F007E0221 /* NumberBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2CB2864A35F007E0221 /* NumberBO.swift */; };
+		2AE2B2EA2864A35F007E0221 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE2B2D62864A35F007E0221 /* DetailsViewController.xib */; };
+		2AE2B2EB2864A360007E0221 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2D72864A35F007E0221 /* DetailsViewModel.swift */; };
+		2AE2B2EC2864A360007E0221 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2D82864A35F007E0221 /* DetailsViewController.swift */; };
+		2AE2B2ED2864A360007E0221 /* APIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2DA2864A35F007E0221 /* APIRoute.swift */; };
+		2AE2B2EE2864A360007E0221 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2DB2864A35F007E0221 /* Navigator.swift */; };
+		2AE2B2EF2864A360007E0221 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2DC2864A35F007E0221 /* UIViewController+Extension.swift */; };
+		2AE2B2F02864A360007E0221 /* APIRoute+Execute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2DE2864A35F007E0221 /* APIRoute+Execute.swift */; };
+		2AE2B2F22864A360007E0221 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2E02864A35F007E0221 /* APIRouter.swift */; };
+		2AE2B2F92864A7D0007E0221 /* NumbersRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2F72864A7D0007E0221 /* NumbersRepositoryMock.swift */; };
+		2AE2B2FA2864A7D0007E0221 /* NumbersRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2F82864A7D0007E0221 /* NumbersRepositoryTests.swift */; };
+		2AE2B2FF2864A9C6007E0221 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2FC2864A9C6007E0221 /* AppNavigator.swift */; };
+		2AE2B3002864A9C6007E0221 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B2FE2864A9C6007E0221 /* AppDIContainer.swift */; };
+		2AE2B3022864AAF8007E0221 /* ControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B3012864AAF8007E0221 /* ControllerFactory.swift */; };
+		2AE2B30D2864ABDD007E0221 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B3062864ABDD007E0221 /* HomeViewModel.swift */; };
+		2AE2B30E2864ABDD007E0221 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE2B3072864ABDD007E0221 /* HomeViewController.xib */; };
+		2AE2B30F2864ABDD007E0221 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B3082864ABDD007E0221 /* HomeViewController.swift */; };
+		2AE2B3102864ABDD007E0221 /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B30A2864ABDD007E0221 /* NumberCell.swift */; };
+		2AE2B3112864ABDD007E0221 /* NumberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE2B30B2864ABDD007E0221 /* NumberCell.xib */; };
+		2AE2B3122864ABDD007E0221 /* HomeUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2B30C2864ABDD007E0221 /* HomeUseCases.swift */; };
+		6454AE0813546C93152DF5BA /* Pods_Numbers_LightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427F1731D16191118E272CA1 /* Pods_Numbers_LightTests.framework */; };
+		E22D4F98DEC029B50BD7CFD3 /* Pods_Numbers_Light.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A4A09D04424AA82AF3E01A /* Pods_Numbers_Light.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +48,47 @@
 			remoteGlobalIDString = 2AE2B2922864A1D1007E0221;
 			remoteInfo = "Numbers Light";
 		};
-		2AE2B2B42864A1D4007E0221 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2AE2B28B2864A1D1007E0221 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2AE2B2922864A1D1007E0221;
-			remoteInfo = "Numbers Light";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A68DE77B5DD40A3D3F85978 /* Pods-Numbers LightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Numbers LightTests.release.xcconfig"; path = "Target Support Files/Pods-Numbers LightTests/Pods-Numbers LightTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AB5EB1F2865FF8C0069F872 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		2AB5EB212865FFAB0069F872 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2AB5EB23286613300069F872 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		2AB5EB29286627FB0069F872 /* HomeUseCasesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeUseCasesTests.swift; sourceTree = "<group>"; };
 		2AE2B2932864A1D1007E0221 /* Numbers Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Numbers Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE2B2962864A1D1007E0221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AE2B2982864A1D1007E0221 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AE2B29A2864A1D1007E0221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2AE2B29D2864A1D1007E0221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AE2B29F2864A1D4007E0221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE2B2A22864A1D4007E0221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AE2B2A42864A1D4007E0221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AE2B2A92864A1D4007E0221 /* Numbers LightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Numbers LightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AE2B2AD2864A1D4007E0221 /* Numbers_LightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers_LightTests.swift; sourceTree = "<group>"; };
-		2AE2B2B32864A1D4007E0221 /* Numbers LightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Numbers LightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AE2B2B72864A1D4007E0221 /* Numbers_LightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers_LightUITests.swift; sourceTree = "<group>"; };
-		2AE2B2B92864A1D4007E0221 /* Numbers_LightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers_LightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AE2B2C72864A35F007E0221 /* APIRouter+Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIRouter+Numbers.swift"; sourceTree = "<group>"; };
+		2AE2B2C82864A35F007E0221 /* NumbersRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersRepository.swift; sourceTree = "<group>"; };
+		2AE2B2CB2864A35F007E0221 /* NumberBO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberBO.swift; sourceTree = "<group>"; };
+		2AE2B2D62864A35F007E0221 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		2AE2B2D72864A35F007E0221 /* DetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		2AE2B2D82864A35F007E0221 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		2AE2B2DA2864A35F007E0221 /* APIRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRoute.swift; sourceTree = "<group>"; };
+		2AE2B2DB2864A35F007E0221 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		2AE2B2DC2864A35F007E0221 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		2AE2B2DE2864A35F007E0221 /* APIRoute+Execute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIRoute+Execute.swift"; sourceTree = "<group>"; };
+		2AE2B2E02864A35F007E0221 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		2AE2B2F72864A7D0007E0221 /* NumbersRepositoryMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersRepositoryMock.swift; sourceTree = "<group>"; };
+		2AE2B2F82864A7D0007E0221 /* NumbersRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersRepositoryTests.swift; sourceTree = "<group>"; };
+		2AE2B2FC2864A9C6007E0221 /* AppNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
+		2AE2B2FE2864A9C6007E0221 /* AppDIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
+		2AE2B3012864AAF8007E0221 /* ControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerFactory.swift; sourceTree = "<group>"; };
+		2AE2B3062864ABDD007E0221 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2AE2B3072864ABDD007E0221 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2AE2B3082864ABDD007E0221 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2AE2B30A2864ABDD007E0221 /* NumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
+		2AE2B30B2864ABDD007E0221 /* NumberCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberCell.xib; sourceTree = "<group>"; };
+		2AE2B30C2864ABDD007E0221 /* HomeUseCases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeUseCases.swift; sourceTree = "<group>"; };
+		427F1731D16191118E272CA1 /* Pods_Numbers_LightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Numbers_LightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5918247FFED661646C8F0581 /* Pods-Numbers Light.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Numbers Light.release.xcconfig"; path = "Target Support Files/Pods-Numbers Light/Pods-Numbers Light.release.xcconfig"; sourceTree = "<group>"; };
+		E1A6BEEC26B87CE3A3A3F2EE /* Pods-Numbers LightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Numbers LightTests.debug.xcconfig"; path = "Target Support Files/Pods-Numbers LightTests/Pods-Numbers LightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E79983DC3056098872079BFB /* Pods-Numbers Light.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Numbers Light.debug.xcconfig"; path = "Target Support Files/Pods-Numbers Light/Pods-Numbers Light.debug.xcconfig"; sourceTree = "<group>"; };
+		F3A4A09D04424AA82AF3E01A /* Pods_Numbers_Light.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Numbers_Light.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB5EB24286613300069F872 /* Network.framework in Frameworks */,
+				E22D4F98DEC029B50BD7CFD3 /* Pods_Numbers_Light.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,13 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE2B2B02864A1D4007E0221 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6454AE0813546C93152DF5BA /* Pods_Numbers_LightTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +117,9 @@
 			children = (
 				2AE2B2952864A1D1007E0221 /* Numbers Light */,
 				2AE2B2AC2864A1D4007E0221 /* Numbers LightTests */,
-				2AE2B2B62864A1D4007E0221 /* Numbers LightUITests */,
 				2AE2B2942864A1D1007E0221 /* Products */,
+				5ABCF9CBE0F7E31B3D71B010 /* Pods */,
+				3751146187A106AE89AAA244 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +128,6 @@
 			children = (
 				2AE2B2932864A1D1007E0221 /* Numbers Light.app */,
 				2AE2B2A92864A1D4007E0221 /* Numbers LightTests.xctest */,
-				2AE2B2B32864A1D4007E0221 /* Numbers LightUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,11 +136,11 @@
 			isa = PBXGroup;
 			children = (
 				2AE2B2962864A1D1007E0221 /* AppDelegate.swift */,
-				2AE2B2982864A1D1007E0221 /* SceneDelegate.swift */,
-				2AE2B29A2864A1D1007E0221 /* ViewController.swift */,
-				2AE2B29C2864A1D1007E0221 /* Main.storyboard */,
-				2AE2B29F2864A1D4007E0221 /* Assets.xcassets */,
-				2AE2B2A12864A1D4007E0221 /* LaunchScreen.storyboard */,
+				2AE2B2CC2864A35F007E0221 /* Scenes */,
+				2AE2B2C92864A35F007E0221 /* Domain */,
+				2AE2B2C62864A35F007E0221 /* Data */,
+				2AE2B2F32864A377007E0221 /* Utilities */,
+				2AE2B2F52864A39D007E0221 /* Resources */,
 				2AE2B2A42864A1D4007E0221 /* Info.plist */,
 			);
 			path = "Numbers Light";
@@ -113,18 +149,179 @@
 		2AE2B2AC2864A1D4007E0221 /* Numbers LightTests */ = {
 			isa = PBXGroup;
 			children = (
-				2AE2B2AD2864A1D4007E0221 /* Numbers_LightTests.swift */,
+				2AB5EB29286627FB0069F872 /* HomeUseCasesTests.swift */,
+				2AE2B2F82864A7D0007E0221 /* NumbersRepositoryTests.swift */,
+				2AE2B2F62864A7D0007E0221 /* Mocks */,
 			);
 			path = "Numbers LightTests";
 			sourceTree = "<group>";
 		};
-		2AE2B2B62864A1D4007E0221 /* Numbers LightUITests */ = {
+		2AE2B2C62864A35F007E0221 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				2AE2B2B72864A1D4007E0221 /* Numbers_LightUITests.swift */,
-				2AE2B2B92864A1D4007E0221 /* Numbers_LightUITestsLaunchTests.swift */,
+				2AE2B2C72864A35F007E0221 /* APIRouter+Numbers.swift */,
+				2AE2B2C82864A35F007E0221 /* NumbersRepository.swift */,
 			);
-			path = "Numbers LightUITests";
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2AE2B2C92864A35F007E0221 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B2CA2864A35F007E0221 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2AE2B2CA2864A35F007E0221 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B2CB2864A35F007E0221 /* NumberBO.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2AE2B2CC2864A35F007E0221 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B3052864ABDD007E0221 /* Home */,
+				2AE2B2D52864A35F007E0221 /* Details */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2AE2B2D52864A35F007E0221 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B2D82864A35F007E0221 /* DetailsViewController.swift */,
+				2AE2B2D62864A35F007E0221 /* DetailsViewController.xib */,
+				2AE2B2D72864A35F007E0221 /* DetailsViewModel.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		2AE2B2D92864A35F007E0221 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B2DA2864A35F007E0221 /* APIRoute.swift */,
+				2AE2B2DB2864A35F007E0221 /* Navigator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2AE2B2DD2864A35F007E0221 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B2DE2864A35F007E0221 /* APIRoute+Execute.swift */,
+				2AE2B2E02864A35F007E0221 /* APIRouter.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		2AE2B2F32864A377007E0221 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2AB5EB212865FFAB0069F872 /* Constants.swift */,
+				2AB5EB1F2865FF8C0069F872 /* Observable.swift */,
+				2AE2B2FB2864A9C6007E0221 /* AppNavigator */,
+				2AE2B2FD2864A9C6007E0221 /* DI */,
+				2AE2B3042864AB07007E0221 /* ControllerFactory */,
+				2AE2B2F42864A385007E0221 /* Extensions */,
+				2AE2B2DD2864A35F007E0221 /* Infrastructure */,
+				2AE2B2D92864A35F007E0221 /* Protocols */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2AE2B2F42864A385007E0221 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B2DC2864A35F007E0221 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AE2B2F52864A39D007E0221 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B29F2864A1D4007E0221 /* Assets.xcassets */,
+				2AE2B2A12864A1D4007E0221 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2AE2B2F62864A7D0007E0221 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B2F72864A7D0007E0221 /* NumbersRepositoryMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		2AE2B2FB2864A9C6007E0221 /* AppNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B2FC2864A9C6007E0221 /* AppNavigator.swift */,
+			);
+			path = AppNavigator;
+			sourceTree = "<group>";
+		};
+		2AE2B2FD2864A9C6007E0221 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B2FE2864A9C6007E0221 /* AppDIContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		2AE2B3042864AB07007E0221 /* ControllerFactory */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B3012864AAF8007E0221 /* ControllerFactory.swift */,
+			);
+			path = ControllerFactory;
+			sourceTree = "<group>";
+		};
+		2AE2B3052864ABDD007E0221 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B3082864ABDD007E0221 /* HomeViewController.swift */,
+				2AE2B3072864ABDD007E0221 /* HomeViewController.xib */,
+				2AE2B3062864ABDD007E0221 /* HomeViewModel.swift */,
+				2AE2B30C2864ABDD007E0221 /* HomeUseCases.swift */,
+				2AE2B3092864ABDD007E0221 /* NumberCell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2AE2B3092864ABDD007E0221 /* NumberCell */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2B30A2864ABDD007E0221 /* NumberCell.swift */,
+				2AE2B30B2864ABDD007E0221 /* NumberCell.xib */,
+			);
+			path = NumberCell;
+			sourceTree = "<group>";
+		};
+		3751146187A106AE89AAA244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AB5EB23286613300069F872 /* Network.framework */,
+				F3A4A09D04424AA82AF3E01A /* Pods_Numbers_Light.framework */,
+				427F1731D16191118E272CA1 /* Pods_Numbers_LightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ABCF9CBE0F7E31B3D71B010 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E79983DC3056098872079BFB /* Pods-Numbers Light.debug.xcconfig */,
+				5918247FFED661646C8F0581 /* Pods-Numbers Light.release.xcconfig */,
+				E1A6BEEC26B87CE3A3A3F2EE /* Pods-Numbers LightTests.debug.xcconfig */,
+				2A68DE77B5DD40A3D3F85978 /* Pods-Numbers LightTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +331,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AE2B2BD2864A1D4007E0221 /* Build configuration list for PBXNativeTarget "Numbers Light" */;
 			buildPhases = (
+				CBF05954405125BFF5FBE929 /* [CP] Check Pods Manifest.lock */,
 				2AE2B28F2864A1D1007E0221 /* Sources */,
 				2AE2B2902864A1D1007E0221 /* Frameworks */,
 				2AE2B2912864A1D1007E0221 /* Resources */,
+				48063C573A85EB229B3B4A32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +350,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AE2B2C02864A1D4007E0221 /* Build configuration list for PBXNativeTarget "Numbers LightTests" */;
 			buildPhases = (
+				E07425A4003F3C52437C3591 /* [CP] Check Pods Manifest.lock */,
 				2AE2B2A52864A1D4007E0221 /* Sources */,
 				2AE2B2A62864A1D4007E0221 /* Frameworks */,
 				2AE2B2A72864A1D4007E0221 /* Resources */,
@@ -164,24 +364,6 @@
 			productName = "Numbers LightTests";
 			productReference = 2AE2B2A92864A1D4007E0221 /* Numbers LightTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2AE2B2B22864A1D4007E0221 /* Numbers LightUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2AE2B2C32864A1D4007E0221 /* Build configuration list for PBXNativeTarget "Numbers LightUITests" */;
-			buildPhases = (
-				2AE2B2AF2864A1D4007E0221 /* Sources */,
-				2AE2B2B02864A1D4007E0221 /* Frameworks */,
-				2AE2B2B12864A1D4007E0221 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2AE2B2B52864A1D4007E0221 /* PBXTargetDependency */,
-			);
-			name = "Numbers LightUITests";
-			productName = "Numbers LightUITests";
-			productReference = 2AE2B2B32864A1D4007E0221 /* Numbers LightUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,10 +379,6 @@
 						CreatedOnToolsVersion = 13.4;
 					};
 					2AE2B2A82864A1D4007E0221 = {
-						CreatedOnToolsVersion = 13.4;
-						TestTargetID = 2AE2B2922864A1D1007E0221;
-					};
-					2AE2B2B22864A1D4007E0221 = {
 						CreatedOnToolsVersion = 13.4;
 						TestTargetID = 2AE2B2922864A1D1007E0221;
 					};
@@ -221,7 +399,6 @@
 			targets = (
 				2AE2B2922864A1D1007E0221 /* Numbers Light */,
 				2AE2B2A82864A1D4007E0221 /* Numbers LightTests */,
-				2AE2B2B22864A1D4007E0221 /* Numbers LightUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,8 +409,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE2B2A32864A1D4007E0221 /* LaunchScreen.storyboard in Resources */,
+				2AE2B2EA2864A35F007E0221 /* DetailsViewController.xib in Resources */,
 				2AE2B2A02864A1D4007E0221 /* Assets.xcassets in Resources */,
-				2AE2B29E2864A1D1007E0221 /* Main.storyboard in Resources */,
+				2AE2B3112864ABDD007E0221 /* NumberCell.xib in Resources */,
+				2AE2B30E2864ABDD007E0221 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,23 +423,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AE2B2B12864A1D4007E0221 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48063C573A85EB229B3B4A32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Numbers Light/Pods-Numbers Light-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Numbers Light/Pods-Numbers Light-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Numbers Light/Pods-Numbers Light-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		CBF05954405125BFF5FBE929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Numbers Light-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07425A4003F3C52437C3591 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Numbers LightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2AE2B28F2864A1D1007E0221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE2B29B2864A1D1007E0221 /* ViewController.swift in Sources */,
+				2AB5EB202865FF8C0069F872 /* Observable.swift in Sources */,
 				2AE2B2972864A1D1007E0221 /* AppDelegate.swift in Sources */,
-				2AE2B2992864A1D1007E0221 /* SceneDelegate.swift in Sources */,
+				2AE2B2EF2864A360007E0221 /* UIViewController+Extension.swift in Sources */,
+				2AE2B2F22864A360007E0221 /* APIRouter.swift in Sources */,
+				2AE2B2ED2864A360007E0221 /* APIRoute.swift in Sources */,
+				2AE2B2EE2864A360007E0221 /* Navigator.swift in Sources */,
+				2AE2B2E32864A35F007E0221 /* NumberBO.swift in Sources */,
+				2AE2B2FF2864A9C6007E0221 /* AppNavigator.swift in Sources */,
+				2AE2B2E12864A35F007E0221 /* APIRouter+Numbers.swift in Sources */,
+				2AE2B3122864ABDD007E0221 /* HomeUseCases.swift in Sources */,
+				2AE2B3002864A9C6007E0221 /* AppDIContainer.swift in Sources */,
+				2AE2B2F02864A360007E0221 /* APIRoute+Execute.swift in Sources */,
+				2AE2B2E22864A35F007E0221 /* NumbersRepository.swift in Sources */,
+				2AE2B30F2864ABDD007E0221 /* HomeViewController.swift in Sources */,
+				2AE2B3022864AAF8007E0221 /* ControllerFactory.swift in Sources */,
+				2AB5EB222865FFAB0069F872 /* Constants.swift in Sources */,
+				2AE2B2EB2864A360007E0221 /* DetailsViewModel.swift in Sources */,
+				2AE2B30D2864ABDD007E0221 /* HomeViewModel.swift in Sources */,
+				2AE2B3102864ABDD007E0221 /* NumberCell.swift in Sources */,
+				2AE2B2EC2864A360007E0221 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +521,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE2B2AE2864A1D4007E0221 /* Numbers_LightTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE2B2AF2864A1D4007E0221 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AE2B2BA2864A1D4007E0221 /* Numbers_LightUITestsLaunchTests.swift in Sources */,
-				2AE2B2B82864A1D4007E0221 /* Numbers_LightUITests.swift in Sources */,
+				2AB5EB2A286627FB0069F872 /* HomeUseCasesTests.swift in Sources */,
+				2AE2B2FA2864A7D0007E0221 /* NumbersRepositoryTests.swift in Sources */,
+				2AE2B2F92864A7D0007E0221 /* NumbersRepositoryMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,22 +535,9 @@
 			target = 2AE2B2922864A1D1007E0221 /* Numbers Light */;
 			targetProxy = 2AE2B2AA2864A1D4007E0221 /* PBXContainerItemProxy */;
 		};
-		2AE2B2B52864A1D4007E0221 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2AE2B2922864A1D1007E0221 /* Numbers Light */;
-			targetProxy = 2AE2B2B42864A1D4007E0221 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2AE2B29C2864A1D1007E0221 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2AE2B29D2864A1D1007E0221 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2AE2B2A12864A1D4007E0221 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +665,7 @@
 		};
 		2AE2B2BE2864A1D4007E0221 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79983DC3056098872079BFB /* Pods-Numbers Light.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,9 +676,9 @@
 				INFOPLIST_FILE = "Numbers Light/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +694,7 @@
 		};
 		2AE2B2BF2864A1D4007E0221 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5918247FFED661646C8F0581 /* Pods-Numbers Light.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,9 +705,9 @@
 				INFOPLIST_FILE = "Numbers Light/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +723,7 @@
 		};
 		2AE2B2C12864A1D4007E0221 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A6BEEC26B87CE3A3A3F2EE /* Pods-Numbers LightTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +744,7 @@
 		};
 		2AE2B2C22864A1D4007E0221 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A68DE77B5DD40A3D3F85978 /* Pods-Numbers LightTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,42 +760,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numbers Light.app/Numbers Light";
-			};
-			name = Release;
-		};
-		2AE2B2C42864A1D4007E0221 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AZ7KRNMEKM;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mb-apps.Numbers-LightUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Numbers Light";
-			};
-			name = Debug;
-		};
-		2AE2B2C52864A1D4007E0221 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AZ7KRNMEKM;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mb-apps.Numbers-LightUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Numbers Light";
 			};
 			name = Release;
 		};
@@ -588,15 +789,6 @@
 			buildConfigurations = (
 				2AE2B2C12864A1D4007E0221 /* Debug */,
 				2AE2B2C22864A1D4007E0221 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2AE2B2C32864A1D4007E0221 /* Build configuration list for PBXNativeTarget "Numbers LightUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2AE2B2C42864A1D4007E0221 /* Debug */,
-				2AE2B2C52864A1D4007E0221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

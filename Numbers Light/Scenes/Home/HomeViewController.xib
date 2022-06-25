@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Numbers_Light" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyView" destination="03A-nF-Yxm" id="LeW-ej-hoV"/>
+                <outlet property="numbersTableView" destination="IfX-yU-zda" id="C1v-qb-nOn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IfX-yU-zda">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="4a4-fj-aCB"/>
+                        <outlet property="delegate" destination="-1" id="88r-k2-Tes"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03A-nF-Yxm" userLabel="Empty View">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXx-38-4Oo">
+                            <rect key="frame" x="16" y="280" width="343" height="107.5"/>
+                            <string key="text">Impossible de charger la liste des numéros. 
+Appuyez sur le bouton actualiser pour rééssayer</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="qXx-38-4Oo" firstAttribute="centerY" secondItem="03A-nF-Yxm" secondAttribute="centerY" id="1BU-n6-CZK"/>
+                        <constraint firstAttribute="trailing" secondItem="qXx-38-4Oo" secondAttribute="trailing" constant="16" id="Vxl-pJ-YXi"/>
+                        <constraint firstItem="qXx-38-4Oo" firstAttribute="leading" secondItem="03A-nF-Yxm" secondAttribute="leading" constant="16" id="mje-MM-dvB"/>
+                        <constraint firstItem="qXx-38-4Oo" firstAttribute="centerX" secondItem="03A-nF-Yxm" secondAttribute="centerX" id="rJN-wE-eGb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="hQ2-Mk-uSZ"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="03A-nF-Yxm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7ad-Fp-Ets"/>
+                <constraint firstItem="IfX-yU-zda" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="DKM-e5-vWS"/>
+                <constraint firstItem="hQ2-Mk-uSZ" firstAttribute="bottom" secondItem="IfX-yU-zda" secondAttribute="bottom" id="Fgt-af-lBV"/>
+                <constraint firstItem="hQ2-Mk-uSZ" firstAttribute="trailing" secondItem="IfX-yU-zda" secondAttribute="trailing" id="OM5-1s-B7S"/>
+                <constraint firstItem="hQ2-Mk-uSZ" firstAttribute="trailing" secondItem="03A-nF-Yxm" secondAttribute="trailing" id="grA-fQ-nCm"/>
+                <constraint firstItem="hQ2-Mk-uSZ" firstAttribute="bottom" secondItem="03A-nF-Yxm" secondAttribute="bottom" id="h2e-6x-Lnz"/>
+                <constraint firstItem="IfX-yU-zda" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hTT-13-Zfz"/>
+                <constraint firstItem="03A-nF-Yxm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rwN-nc-mDq"/>
+            </constraints>
+            <point key="canvasLocation" x="138" y="133"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
