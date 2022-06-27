@@ -27,12 +27,20 @@ class DIContainer {
             return NumbersRepository()
         }
         
+        defaultContainer.register(DetailsViewController.self) { (resolver) in
+            return DetailsViewController(viewModel: resolver.resolve(DetailsViewModel.self)!)
+        }
+        
         defaultContainer.register(DetailsViewController.self) { (resolver, selectedNumber: NumberBO?) in
             return DetailsViewController(viewModel: resolver.resolve(DetailsViewModel.self, argument: selectedNumber)!)
         }
         
         defaultContainer.register(DetailsViewModel.self) { (resolver, selectedNumber: NumberBO?) in
             return DetailsViewModel(selectedNumber: selectedNumber)
+        }
+
+        defaultContainer.register(DetailsViewModel.self) { (resolver) in
+            return DetailsViewModel()
         }
     }
 }

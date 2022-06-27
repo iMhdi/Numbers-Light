@@ -19,7 +19,7 @@ class DetailsViewModel {
     var selectedNumber: NumberBO?
   
     // MARK: - Initialization
-    init (selectedNumber: NumberBO?) {
+    init (selectedNumber: NumberBO? = nil) {
         self.selectedNumber = selectedNumber
     }
 }

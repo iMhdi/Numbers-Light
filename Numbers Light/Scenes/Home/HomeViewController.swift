@@ -118,8 +118,9 @@ extension HomeViewController: HomeViewProtocol {
     func didLoadNumberDetails(number: NumberBO) {
         stopLoading()
 
+        let navigationMode: ViewControllerPresentationStyle = (UIDevice.current.userInterfaceIdiom == .phone) ? .present : .show
         let additionalData = ["selectedNumber": number] as [String : Any?]
-        navController.navigate(to: .details, withStyle: .present, andData: additionalData)
+        navController.navigate(to: .details, withStyle: navigationMode, andData: additionalData)
     }
     
     func didFailToLoadNumberDetails(withError error: NSError?) {

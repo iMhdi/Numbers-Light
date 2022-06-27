@@ -64,8 +64,10 @@ class DetailsViewController: UIViewController {
     }
 
     func initNavigationBar() {
-        let backButton = UIBarButtonItem(title: "Fermer", style: UIBarButtonItem.Style.plain, target: self, action: #selector(didCloseButton))
-        navigationItem.leftBarButtonItem = backButton
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            let backButton = UIBarButtonItem(title: "Fermer", style: UIBarButtonItem.Style.plain, target: self, action: #selector(didCloseButton))
+            navigationItem.leftBarButtonItem = backButton
+        }
     }
   
     // MARK: - Actions

@@ -16,6 +16,7 @@ enum ViewControllerPresentationStyle {
     case root
     case push
     case present
+    case show
 }
 
 class AppNavigator: UINavigationController, Navigator {
@@ -37,7 +38,7 @@ class AppNavigator: UINavigationController, Navigator {
         fatalError("init(coder:) has not been implemented")
     }
     
-    static func startApp(withDIContainer container: DIContainer) -> AppNavigator {
+    static func startiPhoneApp(withDIContainer container: DIContainer) -> AppNavigator {
         guard let homeController: HomeViewController = container.defaultContainer.resolve(HomeViewController.self) else {
             fatalError("unable to launch the app")
         }
@@ -45,6 +46,21 @@ class AppNavigator: UINavigationController, Navigator {
         let navigationController = AppNavigator(rootViewController: homeController)
         navigationController.appContainer = container
         return navigationController
+    }
+    
+    static func startiPadApp(withDIContainer container: DIContainer) -> UISplitViewController {
+        guard let detailsController = container.defaultContainer.resolve(DetailsViewController.self) else {
+            fatalError("unable to launch the app")
+        }
+
+        let navigationController = startiPhoneApp(withDIContainer: container)
+        
+        let splitViewController = UISplitViewController(style: .doubleColumn)
+        splitViewController.preferredDisplayMode = .oneOverSecondary
+        splitViewController.setViewController(navigationController, for: .primary)
+        splitViewController.setViewController(detailsController, for: .secondary)
+        
+        return splitViewController
     }
     
     // MARK: - Navigator
@@ -58,6 +74,10 @@ class AppNavigator: UINavigationController, Navigator {
         case .present:
             let navController = AppNavigator(rootViewController: viewController)
             present(viewController: navController)
+            break
+        case .show:
+            let navController = AppNavigator(rootViewController: viewController)
+            showDetailViewController(navController, sender: nil)
             break
         case .root:
             changeRoot(viewController: viewController)
